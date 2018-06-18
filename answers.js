@@ -148,6 +148,16 @@ bondFilms.forEach(element => {
 });
 console.log(bondTitles);
 
+// Create a new array oddBonds, of only the Bond films released on odd - numbered years.
+let oddBonds = [];
+bondFilms.forEach(element => {
+  if (element.year % 2 === 1) {
+    oddBonds.push(element.title);
+  }
+});
+console.log(oddBonds);
+
+
 
 
 
