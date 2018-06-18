@@ -14,7 +14,7 @@ const spaceship = {
 }
 // A list of student names from our class.
 // array
-const studentList= [student1, student2];
+const studentList= ['student1', 'student2'];
 // A list of student names from our class, each with a location.
 // object
 const students = {
@@ -28,3 +28,20 @@ const students2 = {
   location: '',
   tvShows: ['show1', 'show2']
 }
+
+
+// Take it Easy
+// Make an array that holds all of the colors of the rainbow.
+const rainbow = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
+// Write code that will access "blue" from the rainbow array.
+rainbow[4];
+// Make an object that is called your name and holds the information about your favorite food, a hobby, the name of the town that you live in currently, and your favorite datatype.
+const superMario = {
+  food: 'carts',
+  hobby: 'drive fast',
+  town: 'italia',
+  datatype: 'fast objects'
+}
+// Write code that will access your hobby from the object that you just created.
+console.log(superMario.datatype);
+
